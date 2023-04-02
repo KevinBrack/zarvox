@@ -114,7 +114,7 @@ alias package="cat ./package.json"
 # Print all the scripts in the in the "scripts" object in package.json to the terminal
 # ZARVOX - alias scripts="cat ./package.json | grep scripts | grep -v \"\{\"\ | grep -v \"\}\""
 
-# Try again you only captured "scripts": { and I want the scripts insid the object starting with "dev"
+# Try again you only captured "scripts": { and I want the scripts inside the object starting with "dev"
 # ZARVOX - alias scripts="cat ./package.json | grep scripts | grep -v \"\{\"\ | grep -v \"\}\" | grep -v \"scripts\""
 
 # Try again Zarvox, you got a grep error this time "grep: invalid repetition count(s)"
